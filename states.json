@@ -1,0 +1,23 @@
+{
+    "start": {
+        "scene": "Two peasants are bickering in front of a river",
+        "actions": {
+            "cross_river0": "Attempt to fjord the river"
+            "ask_watch0": "Ask what they are fighting about"
+        }
+    },
+    "cross_river0": {
+        "scene": "You try to cross it but the seabed is too sharp and slippery",
+        "actions": {
+            "start": "Give up",
+            "faint": "Keep going"
+        }
+    },
+    "ask_watch0": {
+        "scene": "One of the peasants lost the others watch",
+        "actions": {
+            "investigate": "One of them said its on a tree stump",
+            "cross_river0": "Anything else"
+        }
+    }
+}
